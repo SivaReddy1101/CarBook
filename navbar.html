@@ -38,7 +38,7 @@
         }
         .col2{
             float: left;     
-            margin-left:.5em;
+            margin-left:1em;
             margin-top: 1em;
             height: 3.75em;      
             padding-top: 0.3em;
@@ -68,6 +68,12 @@
         .icon-spantag{
             color: #60D38F;
         }
+        .icon-spantag:hover{
+            color: white;
+        }
+        .nav-col2{
+            padding-left: 0;
+        }
         li{
             margin-right: 20px;
         }
@@ -87,6 +93,10 @@
             padding: 4em;
             overflow: hidden    ;
         }
+        .fa-home-alt{
+            margin-right:0.5em ;
+            color: #60D38F;
+        }
     </style>
 </head>
 <body>
@@ -95,11 +105,11 @@
             <div class="navbar">
                 <div class="row">
                     <div class="col1">
-                        <h3 class="icon-htag">CAR<Span class="icon-spantag">BOOK</Span></h3>
+                        <h3 class="icon-htag"><a href="index.html"> CAR<Span class="icon-spantag">BOOK</Span></a></h3>
                     </div>
                     <div class="col2">
-                        <ul>
-                            <li><a href="index.html">Home</a></li>
+                        <ul class="nav-col2">
+                            <li><a href="index.html"><i class="fas fa-home-alt"></i>Home</a></li>
                             <li><a href="aboutus.html">About</a></li>
                             <li><a href="services.html">Services</a></li>
                             <li><a href="pricing.html">Pricing</a></li>

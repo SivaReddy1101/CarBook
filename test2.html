@@ -1,105 +1,23 @@
+
 <html>
-<head>
-    <title>Navabr</title>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
-    <style>
-        body{
-            font-family: "Poppins",Arial,sans-serif;
-        }
-        ul{
-            list-style-type:none;
-        }
-        .outerdiv{
-            width: 100%;
-            height: 100%;
-        }
-        .header{
-            width: 100%;
-            height: 31.25em;
-            background-image: linear-gradient(to right bottom, rgba(0,0,0, 0.3), rgba(0,0,0,0.3)), url('images/header.jpeg');
-            background-size: cover;
-            overflow: hidden;
-        }
-        .navbar{
-            width: 100%;
-            height:6.2em;
-        }
-        .row{
-            float: none;
-            width: 100%;
-            font-weight: 400;
-            font-size: 1.12em;
-        }
-        .col1{
-            float: left;          
-            width: 25%;  
-            height: 3.75em;
-            margin-top:1em;
-        }
-        .col2{
-            float: left;     
-            margin-left:.5em;
-            margin-top: 1em;
-            height: 3.75em;      
-            padding-top: 0.3em;
-            width: 50%;
-        }
-        .col3{
-            float: left;     
-            height: 3.75em;      
-            padding-top: 0.3em;
-            width: 20%;
-            margin-top: 1em;
-        }
-        li{
-            display: inline;
-        }
-        a{
-            text-decoration: none;
-            color:white;
-        }
-        a:hover{
-            color: #60D38F;
-        }
-        .icon-htag{
-            color: white;
-            text-align: center;
-        }
-        .icon-spantag{
-            color: #60D38F;
-        }
-        li{
-            margin-right: 20px;
-        }
-        .list-form-page{
-            margin-left: 2em;
-            text-align: right;
-        }
-        .fa-solid{
-            color:white;
-            padding: 1em;
-        }
-        .head-content{
-            font-size: 16px;
-            width: 100%;
-            text-align: left;
-            margin-top: 15%;
-            padding: 4em;
-            overflow: hidden    ;
-        }
-    </style>
-</head>
-<body>
-    <div class="outerdiv">
+    <head>
+        <title>Contact US</title>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+        <link rel="stylesheet" href="navstyle.css">
+        <link rel="stylesheet" href="footerstyle.css">
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+       <div class="outerdiv">
         <div class="header">
             <div class="navbar">
                 <div class="row">
                     <div class="col1">
-                        <h3 class="icon-htag">CAR<Span class="icon-spantag">BOOK</Span></h3>
+                        <h3 class="icon-htag"><a href="index.html"> CAR<Span class="icon-spantag">BOOK</Span></a></h3>
                     </div>
                     <div class="col2">
-                        <ul>
-                            <li><a href="index.html">Home</a></li>
+                        <ul class="nav-col2">
+                            <li><a href="index.html"><i class="fas fa-home-alt"></i>Home</a></li>
                             <li><a href="aboutus.html">About</a></li>
                             <li><a href="services.html">Services</a></li>
                             <li><a href="pricing.html">Pricing</a></li>
@@ -117,14 +35,97 @@
                 </div>
             </div>
             <div class="head-content">
-                <h3><a href="index.html"> Home</a><i class="fa-solid fa-angle-right"></i><a href="contact.html">ContactUS</a></h3>
+                <h3><a href="index.html"> Home</a><i class="fa-solid fa-angle-right"></i><a href=""></a></h3>
             </div>
         </div>
-    </div>
-</body>
+        <div class="content">
+            <div class="content-contact-row">
+                <div class="content-contact-col1">
+                    <div class="content-contact-rowcol">
+                        <div class="content-contact-rowcol1">
+                            <h3 class="content-contact-htag">Addres:</h3>
+                            <span><i class="fas fa-map-marked-alt fas-contact-icon"></i></span><p class="content-contact-ptag">198 West 21th Street, Suite 721 New Delhi IN 10016</p>
+                        </div>
+                        <div class="content-contact-rowcol1">
+                            <h3 class="content-contact-htag">Phone:</h3>
+                            <span><i class="fas fa-mobile-alt fas-contact-icon"></i></span><p class="content-contact-ptag">+91 2234578923</p>
+                        </div>
+                        <div class="content-contact-rowcol1">
+                            <h3 class="content-contact-htag">Email:</h3>
+                            <span><i class="fas fa-envelope fas-contact-icon"></i></span><p class="content-contact-ptag">infocenter@carbook.org</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="content-contact-col2">
+                    <div class="content-contact-rowcol2">
+                        <form action="">
+                            <input class="content-contact-input" type="text" placeholder="Your Name"> <br>
+                            <input class="content-contact-input" type="email" placeholder="Your Email ID"> <br>
+                            <input class="content-contact-input" type="text" placeholder="Subject"> <br>
+                            <textarea class="content-contact-textarea" cols="30" rows="7" placeholder="Message"></textarea> <br>
+                            <input class="content-contact-submit" type="submit" value="Send message"> <br>
+                        </form>
+                    </div>
+                </div>
+            </div>
+            <div class="content-contact-row1">
+                <div class="content-contact-rowcol3">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d224345.8392376864!2d77.06889994650913!3d28.527582003470904!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390cfd5b347eb62d%3A0x52c2b7494e204dce!2sNew%20Delhi%2C%20Delhi!5e0!3m2!1sen!2sin!4v1658574052800!5m2!1sen!2sin" style="border:0; width: 100%; height: 75%;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+            </div>
+        </div>
+        <div class="footer">
+            <div class="footer-row">
+                <div class="footer-col-wrap">
+                    <ul class="footer-ul-tag">
+                        <li class="footer-list">
+                            <div class="footer-col1-htag">
+                                <h3 class="footer-icon-htag footer-htag"><a href="index.html"> CAR<Span class="footer-icon-spantag">BOOK</Span></a></h3>
+                            </div>
+                            <div class="footer-col1-ptag">
+                                <p class="footer-ptag footer-col1-ptag">Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
+                                <p class="footer-ptag"><a href="https://www.twitter.com/"> <i class="fa-brands fa-twitter-square fas-icon"></i> </a> <a href="https://www.facebook.com/"> <i class="fab fa-facebook-square fas-icon"></i> </a> <a href="https://www.instagram.com/"> <i class="fa-brands fa-instagram-square fas-icon"> </i></a> </p>
+                            </div>
+                        </li>
+                        <li class="footer-list">
+                            <div class="footer-col2-htag">
+                                <h3 class="footer-htag">Information</h3>
+                            </div>
+                            <div class="footer-col2-ptag">
+                                <a href="#"><p class="footer-ptag"> About</p> </a>
+                                <a href="#"><p class="footer-ptag"> Services</p> </a>
+                                <a href="#"><p class="footer-ptag"> Term and Conditions</p> </a>
+                                <a href="#"><p class="footer-ptag"> Best Price Guarantee</p> </a>
+                                <a href="#"><p class="footer-ptag"> Privacy & Cookies Policy</p> </a>
+                            </div>
+                        </li>
+                        <li class="footer-list">
+                            <div class="footer-col3">
+                                <h3 class="footer-htag">Customer Support</h3>
+                            </div>
+                            <div class="footer-col3-ptag`">
+                                <a href="#"><p class="footer-ptag">FAQ</p> </a> 
+                                <a href="#"><p class="footer-ptag">Option</p> </a> 
+                                <a href="#"><p class="footer-ptag">Booking Tips</p> </a> 
+                                <a href="#"><p class="footer-ptag">How it works</p> </a> 
+                                <a href="#"><p class="footer-ptag">Contact Us</p> </a> 
+                            </div>
+                        </li>
+                        <li class="footer-list">
+                            <div class="footer-col4">
+                                <h3 class="footer-htag">Have a Questions?</h3>
+                            </div>
+                            <div class="footer-col4-ptag`">
+                                <p class="footer-ptag"><i class="fas fa-map-marker-alt fa-icon"></i>198 West 21th Street, Suite 721 New Delhi IN 10016</p>
+                                <p class="footer-ptag"><i class="fas fa-phone-alt fa-icon"></i>+91 2234578923</p>
+                                <p class="footer-ptag"><i class="fas fa-envelope fa-icon"></i>infocenter@carbook.org</p>
+                            </div>
+                        </li>
+                    </ul>
+                </div>  
+            </div>
+            <p align="center">Copyright ©  All rights reserved | This is made by Siva Reddy</p>
+        </div>
+       </div>
+    </body>
 </html>
-
-<!-- <div class="list-form-page">
-    <li><a href="login.html">Login In</a></li>
-    <li><a href="signup.html">Sign Up</a></li>
-</div> -->
