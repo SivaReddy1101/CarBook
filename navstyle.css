@@ -1,0 +1,117 @@
+ul{
+    list-style-type:none;
+}
+.outerdiv{
+    width: 100%;
+    /* height: 100%; */
+}
+.header{
+    width: 100%;
+    height: 31.25em;
+    background-image: linear-gradient(to right bottom, rgba(0,0,0, 0.3), rgba(0,0,0,0.3)), url('images/header.jpeg');
+    background-size: cover;
+    overflow: hidden;
+}
+.navbar{
+    width: 100%;
+    height:6.2em;
+}
+.row{
+    float: none;
+    width: 100%;
+    font-weight: 400;
+    font-size: 1.12em;
+}
+.col1{
+    float: left;          
+    width: 25%;  
+    height: 3.75em;
+    margin-top:1em;
+}
+.col2{
+    float: left;     
+    margin-left:1em;
+    margin-top: 1em;
+    height: 3.75em;      
+    padding-top: 0.3em;
+    width: 50%;
+}
+.col3{
+    float: left;     
+    height: 3.75em;      
+    padding-top: 0.3em;
+    width: 20%;
+    margin-top: 1em;
+}
+li{
+    display: inline;
+}
+a{
+    text-decoration: none;
+    color:white;
+}
+a:hover{
+    color: #60D38F;
+}
+.icon-htag{
+    color: white;
+    text-align: center;
+}
+.icon-spantag{
+    color: #60D38F;
+}
+.icon-spantag:hover{
+    color: white;
+}
+.nav-col2{
+    padding-left: 0;
+}
+li{
+    margin-right: 20px;
+}
+.list-form-page{
+    margin-left: 2em;
+    text-align: right;
+}
+.fa-solid{
+    color:white;
+    padding: 1em;
+}
+.fa-solid:hover{
+    color: #60D38F;
+}
+.head-content{
+    font-size: 16px;
+    /* width: 100%; */
+    text-align: left;
+    margin-top: 12%;
+    padding: 4em;
+    padding-bottom: 0;
+    /* overflow: hidden; */
+}
+.headcontent-h3tag{
+    color: white;
+    font-size: xx-large;
+    margin-top: 0;
+}
+.fa-home-alt{
+    margin-right:0.5em ;
+    color: #60D38F;
+}
+.fa-home-alt:hover{
+    color: white;
+}
+
+
+/* Login Header Styles */
+
+.login-header{
+    width: 100%;
+    overflow: hidden;
+}
+.login-header a{
+    color: black;
+}
+.login-header a:hover{
+    color: #60D38F;
+}
