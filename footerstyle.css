@@ -1,0 +1,41 @@
+.footer{
+    background-color: black;
+    color: white;
+    width: 100%;
+    height: 21.25em;
+}
+.footer-row{
+    float: none;
+    width: 100%;
+}
+.footer-list{
+    display: inline;
+    width: 25%;
+}.footer-ul-tag{
+    display: inline-flex;
+    justify-content: space-around;
+}
+.footer-htag{
+    text-align: justify;
+}
+.footer-ptag{
+    text-align: left;
+    color: rgba(255,255,255,.7);
+    margin-top: 0;
+    margin-bottom: 1rem;
+}
+.fa-icon{
+    margin: 0.5em;
+    color: white;
+}
+.fas-icon{
+    color: white;
+    margin: 0.5em;
+    font-size: x-large ;
+}
+.footer-icon-spantag{
+    color: #60D38F;
+}
+.footer-icon-spantag:hover{
+    color: white;
+}
